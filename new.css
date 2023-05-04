@@ -3,8 +3,21 @@
 @tailwind utilities;
 
 @font-face {
-  font-family: 'Vantage';
-      src: url('Vantage.ttf') format('truetype');
-
+  font-family: 'AnkhSanctuary';
+      src: url('AnkhSanctuary.ttf') format('truetype');
 }
+@font-face {
+    font-family: 'Stacker';
+    src: url('Stacker.ttf') format('truetype');
+}
+@layer utilities {
+    .animation-delay-2000 {
+        animation-delay: 1.5s;
+    }
+    .animation-delay-4000 {
+        animation-delay: 2.5s;
+    }
+}
+
+
 
