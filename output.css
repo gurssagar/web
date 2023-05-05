@@ -627,6 +627,10 @@ video {
   height: 100%;
 }
 
+.h-32 {
+  height: 8rem;
+}
+
 .w-32 {
   width: 8rem;
 }
@@ -1317,6 +1321,14 @@ video {
     display: none;
   }
 
+  .lg\:h-32 {
+    height: 8rem;
+  }
+
+  .lg\:h-16 {
+    height: 4rem;
+  }
+
   .lg\:w-1\/2 {
     width: 50%;
   }
@@ -1377,8 +1389,17 @@ video {
     padding-right: 4rem;
   }
 
+  .lg\:py-5 {
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+  }
+
   .lg\:pr-16 {
     padding-right: 4rem;
+  }
+
+  .lg\:pl-10 {
+    padding-left: 2.5rem;
   }
 
   .lg\:text-left {
